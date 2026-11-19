@@ -1,0 +1,25 @@
+body {
+  background-color: grey;
+  color: darkred;
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: Georgia, serif;
+}
+
+.main-image {
+  display: flex;
+  padding-right: 20px;
+}
+
+.main-image-text {
+  padding: 20px;
+  font-weight: bold;
+}
