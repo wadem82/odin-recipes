@@ -16,10 +16,65 @@ h2 {
 
 .main-image {
   display: flex;
+  align-items: center;
   padding-right: 20px;
 }
 
 .main-image-text {
   padding: 20px;
   font-weight: bold;
+}
+
+.chili-ingredients {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+.chili-ingredients-text {
+  padding: 20px;
+}
+
+.chili-pot {
+  display: flex;
+  padding-right: 20px;
+}
+
+.chili-pot-text {
+  padding: 20px;
+}
+
+.variant-one {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.variant-two {
+  display: flex;
+  align-items: center;
+}
+
+.variant-text {
+  padding: 20px;
+}
+
+.chili-ahead {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.chili-ahead-text {
+  padding: 20px;
+}
+
+.freeze-chili {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.freeze-chili-text {
+  padding: 20px;
 }
