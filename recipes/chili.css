@@ -14,10 +14,18 @@ h2 {
   font-family: Georgia, serif;
 }
 
+.spice,
+.cooking,
+.more-ingredients,
+.crackers,
+.freeze-chili,
+.chili-ahead,
+.variant-one,
+.chili-ingredients,
 .main-image {
   display: flex;
   align-items: center;
-  padding-right: 20px;
+  padding: 20px;
 }
 
 .main-image-text {
@@ -25,56 +33,32 @@ h2 {
   font-weight: bold;
 }
 
-.chili-ingredients {
-  display: flex;
-  padding: 20px;
-  align-items: center;
-}
-
-.chili-ingredients-text {
-  padding: 20px;
-}
-
 .chili-pot {
   display: flex;
   padding-right: 20px;
 }
 
+.spice-text,
+.cooking-text,
+.more-ingredients-image,
+.sides-text,
+.chili-ingredients-text,
+.variant-text,
+.chili-ahead-text,
+.freeze-chili-text,
 .chili-pot-text {
   padding: 20px;
 }
 
-.variant-one {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-
+.more-spices,
 .variant-two {
   display: flex;
   align-items: center;
 }
 
-.variant-text {
-  padding: 20px;
-}
-
-.chili-ahead {
+.more-sides,
+.sides-images {
   display: flex;
-  align-items: center;
-  padding: 20px;
-}
-
-.chili-ahead-text {
-  padding: 20px;
-}
-
-.freeze-chili {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-
-.freeze-chili-text {
-  padding: 20px;
+  flex-direction: column;
+  gap: 20px;
 }
